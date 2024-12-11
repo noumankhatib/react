@@ -1,0 +1,30 @@
+React
+1.Npm is not node package module is
+2.package.json is configuration for npm
+3.package.json will manage all the package that will install in your system or application 
+dependency 
+4.dundler webpack veet  ,parcel
+ bundle its package to an app and ship to production
+
+5.depency dev and prod
+tilde(~) and caret(^) in package.json?
+~version “Approximately equivalent to version”, will automatically update you to all future patch versions that are backwards-compatible, without incrementing the minor version. ~1.2.3 will use releases from 1.2.3 to < 1.3.0.
+
+^version “Compatible with version”, will automatically update you to all future minor/patch versions that are backwards-compatible, without incrementing the major version. ^1.2.3 will use releases from 1.2.3 to < 2.0.0.
+
+6.package.lock.json will keep track of exact version of dependency 
+7.nodemodule is collection of dependency 
+8.alway put into node_module inot gitignore
+9.package and package-lock
+10. npx ecuting package and npm is to installation
+11.cdn link not right way to bring into our project 
+12.should removed entry point from package.json
+@parcel/namer-default: Target "main" declares an output file path of "App.js" which does not match the compiled bundle
+type "html".
+13.npx parcel build index.html 
+ it will generate dist folder 
+14.https://browserslist.dev
+15. all parcel work is to optimize the code
+
+
+Core Foundation of react
